@@ -9,9 +9,9 @@ This tutorial uses the same application that the
 tutorial is based on. Therefore, you'll be building and testing the same
 application but this time, its delivery will be different depending on the Git
 branch that Jenkins builds from. That is, the branch being built determines
-which delivery stage of your Pipeline is executed.
+#which delivery stage of your Pipeline is executed.
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
+#The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
 you'll be creating yourself during the tutorial and the `scripts` subdirectory
 contains shell scripts with commands that are executed when Jenkins processes
 either the "Deliver for development" or "Deploy for production" stages of your
